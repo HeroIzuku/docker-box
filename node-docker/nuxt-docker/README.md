@@ -1,6 +1,7 @@
 ```bash
-$ docker build -t docker-name docker-path
-$ docekr run -dit -p host/8080:container/3000 -v host/apps:container/apps docker-name
+# eg
+$ docker build -t nuxt-docker docker-path
+$ docker run -dit -p localhost/8080:3000 -v localhost:/apps nuxt-docker
 ```
 **目前**的想法是让开发的应用运行在各自独立的环境中，抛出接口信息给主机来访问。
 
