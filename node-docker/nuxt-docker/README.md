@@ -1,3 +1,4 @@
+NODE version: 12.1.0
 ```bash
 # eg
 $ docker build -t nuxt-docker docker-path
